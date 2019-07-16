@@ -1,0 +1,179 @@
+body {
+    background: url("media/Background1.jpg");
+    background-size: 190rem;
+    background-position: center;
+    overflow: hidden;
+}
+
+.jumbotron {
+    padding: .5rem 2rem;
+    padding-top: 0.5rem;
+    padding-right: 2rem;
+    padding-bottom: 0.5rem;
+    padding-left: 2rem;
+    background-color:rgba(255,255,255,0.8);
+    overflow:auto;
+}
+.navbar{
+    width: unset;
+    border-bottom: transparent;
+    border-radius: 4px;
+}
+.navbar-toggler-icon,.navbar-toggler{
+    display:none;
+}
+
+.bg-dark {
+    background-color: transparent !important;
+    -webkit-box-shadow: 2px 13px 26px -4px rgba(196,196,196,0.4);
+    -moz-box-shadow: 2px 13px 26px -4px rgba(196,196,196,0.4);
+    box-shadow: 2px 13px 26px -4px rgba(196,196,196,0.4);
+}
+
+.btn-primary,.MailImg,.LinkedInImg,.PhoneImg,.MobleMenuIcon {
+    color: #fdf1f1;
+    background-color: transparent;
+    border-color: #ffffff4f;
+}
+.btn-primary:hover,.MailImg:hover,.LinkedInImg:hover,.PhoneImg:hover,.MobleMenuIcon {
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+    border-bottom: solid white .5px;
+    -moz-border-bottom: solid white .5px;
+    -webkit-border-bottom: solid white .5px;
+    border-radius: 4px 4px 4px 4px;
+    -moz-border-radius: 4px 4px 4px 4px;
+    -webkit-border-radius: 4px 4px 4px 4px;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+.btn-primary.focus, .btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0);
+}
+
+.MailImg,.LinkedInImg,.PhoneImg,.MobleMenuIcon{
+    max-width:3rem;
+}
+.LinkedInImg{
+    padding-bottom:1rem;
+}
+
+.MainPageContainer{
+    text-align:center;
+}
+
+
+
+.MainPage{
+    position:fixed;
+    top: 5.9rem;
+
+}
+#Experience{
+    overflow:auto;
+
+
+}
+
+li{
+    text-align:left;
+}
+
+.TechicalTable{
+    position:relative;
+    left:45%;
+    right:50%;
+}
+
+.dropdown-menu{
+    color:white;
+}
+.nav-item{
+    max-width: 4em;
+}
+
+ .nav_icon{
+     max-width: 3em;
+     padding:inherit;
+ }
+
+.hamburger_menu{
+    max-width: 2em;
+
+}
+
+.Contents{
+    background-color:transparent;
+    display: inline-block;
+    opacity: 1;
+}
+
+.Experience,.Cources,.Education,.Hobbies{
+    opacity: 1 !important;
+    background-color:transparent;
+    text-align:left;
+}
+
+.container{
+    margin-left: unset;
+    top:1rem;
+    max-width: -webkit-fill-available;
+}
+
+.list-group{
+    padding-top: 0.1rem;
+    opacity:1;
+}
+
+.list-group-item{
+    background-color:#00000080;
+    color:#ffff;
+    opacity:1;
+}
+
+#Mobile{
+    position: fixed;
+    left: 3rem;
+    bottom: 10rem;
+    width: 100%;
+    color: white;
+    text-align: left;
+}
+
+.MobileCalltoAction0,.MobileCalltoAction1,.MobileCalltoAction2{
+    position:absolute;
+    background-color:rgba(255,255,255,0.52);
+    -webkit-box-shadow: -1px -2px 13px 0px rgba(255,255,255,0.22);
+    -moz-box-shadow: -1px -2px 13px 0px rgba(255,255,255,0.22);
+    box-shadow: -1px -2px 13px 0px rgba(255,255,255,0.22);
+}
+.MobileCalltoAction0{
+    position:relative;
+    left: 7rem;
+    bottom: 12rem;
+}
+.MobileCalltoAction1{
+    position:relative;
+    left: 6rem;
+    bottom: 5rem;
+}
+.MobileCalltoAction2{
+    position:relative;
+    left: -3rem;
+    bottom: -2rem;
+}
+
+.footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      color: white;
+      text-align: center;
+}
